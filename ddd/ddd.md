@@ -52,3 +52,36 @@
 - Upstream context will influence the Downstream, but not the opposite.
 - In order to maintain its conceptual integrity against changes in the upstream, DDD proposes a pattern called 'Anti-Corruption-Layer (ACL)'.
   - It is basically the downstream will have a ACL layer, which will consume the data from upstream, converts the data and pushes to downstream context
+
+
+## Domain
+
+- This is the business problem space, where the software is tying to understand and solve
+- For example if we are solving the problem for a retailer, the domain is 'Retail'
+  - Inside that domain 'Retail' we have multiple business areas such as below. These are called as '**subdomains**'
+    - Sales
+    - Customer Management
+    - Accounting
+    - Inventory
+    - Receiving
+    - Fulfillment
+- DDD classifies subdomains into three types
+  - core domain - where the business differentiates itself and where you usually want your strongest modeling effort.
+  - Supporting subdomain — necessary to support the core business, but not usually a key differentiator.
+  - Generic subdomain — common capabilities that many businesses need, such as authentication or payroll.
+
+## Model
+
+- The model of a DDD is the solution to the specific problem
+- The model usually represents an aspect of reality or something of interest
+- The model is focused on the knowledge around a specific problem that is simplified and structured to provide a solution
+- It is the simplified representation of the business concepts, rules and relationships that matter inside a particular domain or bounded context
+- For example in Sales Context, the model might be (mportant part is the rules around them)
+  - An Order must have at least one OrderLine.
+  - A cancelled Order cannot be shipped.
+  - A discount can only be applied when eligibility rules are satisfied.
+  - An Order total is derived from its lines, taxes, and discounts.
+ 
+## Building Blocks
+
+- Entity : an object that is not defined by its attributes, but rather by its identity. Its state can change over time
