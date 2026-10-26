@@ -41,6 +41,7 @@
 - For example, if the accounting department needs some functionality implemented, everyone (including business and technical team) must have the same understanding of accounting concepts.
 
 
+
 ## Bounded Context / Context Maps
 
 - This concept isolates specific areas of business from each other, all together constituting what is called a domain
