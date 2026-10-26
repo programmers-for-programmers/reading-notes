@@ -48,3 +48,6 @@
 - Within this sandbox, language specific to that particular business area is defined - a specific ubiquitous language
 - Context maps are basically a way of describing how informations are exchanged between two sandboxes, example Accounting and Sales both refer to the specific customer
   - Context maps serve to create some adapters on both sides of Sales and Accounting while keeping the customer concept unchanged on both sandboxes
+- Upstream context will influence the Downstream, but not the opposite.
+- In order to maintain its conceptual integrity against changes in the upstream, DDD proposes a pattern called 'Anti-Corruption-Layer (ACL)'.
+  - It is basically the downstream will have a ACL layer, which will consume the data from upstream, converts the data and pushes to downstream context
