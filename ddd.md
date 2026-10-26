@@ -41,3 +41,10 @@
 - For example, if the accounting department needs some functionality implemented, everyone (including business and technical team) must have the same understanding of accounting concepts.
 
 
+## Bounded Context / Context Maps
+
+- This concept isolates specific areas of business from each other, all together constituting what is called a domain
+- This bounded context is like a isolated sandbox that will contain specific parts of the domain knowledge and that will not interfere with other sandboxes
+- Within this sandbox, language specific to that particular business area is defined - a specific ubiquitous language
+- Context maps are basically a way of describing how informations are exchanged between two sandboxes, example Accounting and Sales both refer to the specific customer
+  - Context maps serve to create some adapters on both sides of Sales and Accounting while keeping the customer concept unchanged on both sandboxes
