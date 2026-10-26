@@ -65,10 +65,10 @@
           <mxGeometry height="30" width="60" x="752" as="geometry" />
         </mxCell>
         <mxCell id="jAhfGSMluC_5qZTewN-r-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DownStream" vertex="1">
-          <mxGeometry height="30" width="90" x="575" y="270" as="geometry" />
+          <mxGeometry height="30" width="90" x="755" y="170" as="geometry" />
         </mxCell>
         <mxCell id="jAhfGSMluC_5qZTewN-r-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UpStream" vertex="1">
-          <mxGeometry height="30" width="90" x="757" y="170" as="geometry" />
+          <mxGeometry height="30" width="90" x="575" y="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
