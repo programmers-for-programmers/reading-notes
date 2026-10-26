@@ -22,6 +22,22 @@
 ## Domain driven design building blocks
 
 - Ubiquitous Language
+  - The language that technical team will develop in collaboration with domain experts to share the common understanding
+
 - Bounded context/Context Map
+  - This isolates specific areas of business from each other
+ 
 - Domain
+  - This is the sphere of knowledge (ontology), influence, or activity
+  - This is the subject area of the particular domain
+    
 - Model
+  - A system of abstractions that describes selected aspects of a domain and can be used to solve the problem for that domain
+ 
+## Ubiquitous Language
+
+- This calls for the cultivation of a shared, business oriented language.
+- This language should resemble the business domain and its terms, entities and processes.
+- For example, if the accounting department needs some functionality implemented, everyone (including business and technical team) must have the same understanding of accounting concepts.
+
+
